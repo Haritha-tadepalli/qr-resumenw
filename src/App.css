@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+body{
+  text-align: center;
+  background-color: #1A1527;
+  color: white;
+}
+
+.pic_links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+section{
+  margin-top: 50px;
+}
+
+.linked,
+.mail,
+.downloadCV{
+  margin-top: 20px;
+}
+
+
+a {
+  color: white;
+  transition: all 400 ease;
+}
+
+a:hover{
+  /* color: rgb(110, 90, 212); */
+  box-shadow: 0px 0px 10px 5px grey;
+  color: white;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+img:hover{
+  box-shadow: 0px 0px 10px 5px grey;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.mail{
+  cursor: pointer;
+}
+
+.mail:hover{
+  box-shadow: 0px 0px 10px 5px grey;
+  color: white;
+}
+
+
+button{
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
